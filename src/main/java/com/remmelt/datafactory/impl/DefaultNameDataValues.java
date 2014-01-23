@@ -1,4 +1,4 @@
-package org.fluttercode.datafactory.impl;
+package com.remmelt.datafactory.impl;
 
 /*
  * Copyright 2011, Andrew M Gibson
@@ -11,25 +11,25 @@ package org.fluttercode.datafactory.impl;
  * it under the terms of the GNU Lesser General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
- * 
+ *
  * DataFactory is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU Lesser General Public License for more details.
- * 
- * 
+ *
+ *
  * You should have received a copy of the GNU Lesser General Public License
  * along with DataFactory.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
 
-import org.fluttercode.datafactory.NameDataValues;
+import com.remmelt.datafactory.NameDataValues;
 
 public class DefaultNameDataValues implements NameDataValues {
 
-	private static String[] suffixes = { "II", "III", "Phd", "Jr", "Sr" };
-	private static String[] prefixes = { "Mr", "Mrs", "Ms" };
-	private static String[] firstNames = { "Aaron", "Abby", "Abigail", "Adam",
+	private static String[] suffixes = {"II", "III", "Phd", "Jr", "Sr"};
+	private static String[] prefixes = {"Mr", "Mrs", "Ms"};
+	private static String[] firstNames = {"Aaron", "Abby", "Abigail", "Adam",
 			"Alan", "Albert", "Alex", "Alexandra", "Alexis", "Alice", "Alicia",
 			"Alisha", "Alissa", "Allen", "Allison", "Alyssa", "Amanda",
 			"Amber", "Amy", "Andrea", "Andrew", "Andy", "Angel", "Angela",
@@ -110,9 +110,9 @@ public class DefaultNameDataValues implements NameDataValues {
 			"Vanessa", "Vernon", "Veronica", "Vicki", "Vickie", "Vicky",
 			"Victor", "Victoria", "Vincent", "Virginia", "Vivian", "Walter",
 			"Wanda", "Wayne", "Wendy", "Wesley", "Whitney", "William",
-			"Willie", "Wyatt", "Zachary" };
+			"Willie", "Wyatt", "Zachary"};
 
-	private static String[] lastNames = { "Abbott", "Acevedo", "Acosta",
+	private static String[] lastNames = {"Abbott", "Acevedo", "Acosta",
 			"Adams", "Adkins", "Aguilar", "Aguirre", "Albert", "Alexander",
 			"Alford", "Allen", "Allison", "Alston", "Alvarado", "Alvarez",
 			"Anderson", "Andrews", "Anthony", "Armstrong", "Arnold", "Ashley",

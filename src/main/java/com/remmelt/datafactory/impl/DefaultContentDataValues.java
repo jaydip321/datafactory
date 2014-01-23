@@ -1,4 +1,4 @@
-package org.fluttercode.datafactory.impl;
+package com.remmelt.datafactory.impl;
 
 /*
  * Copyright 2011, Andrew M Gibson
@@ -11,23 +11,23 @@ package org.fluttercode.datafactory.impl;
  * it under the terms of the GNU Lesser General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
- * 
+ *
  * DataFactory is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU Lesser General Public License for more details.
- * 
- * 
+ *
+ *
  * You should have received a copy of the GNU Lesser General Public License
  * along with DataFactory.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
 
-import org.fluttercode.datafactory.ContentDataValues;
+import com.remmelt.datafactory.ContentDataValues;
 
 public class DefaultContentDataValues implements ContentDataValues {
 
-	public static String[] words = { "throw", "ball", "hat", "red", "worn",
+	public static String[] words = {"throw", "ball", "hat", "red", "worn",
 			"list", "words", "computer", "in", "out", "hot", "cold", "warp",
 			"speed", "captain", "assert", "hold", "room", "ship", "lost", "is",
 			"television", "show", "about", "plane", "crash", "island",
@@ -49,19 +49,19 @@ public class DefaultContentDataValues implements ContentDataValues {
 			"should", "have", "generated", "this", "text", "automatically",
 			"so", "will", "from", "the", "web", "ending", "badly", "library",
 			"handled", "books", "constantly", "headphones", "of", "ill", "on",
-			"it's", "sill","sits","sofa" };
+			"it's", "sill", "sits", "sofa"};
 
-	private static String[] businessTypes = { "Furnishings", "Bakery",
+	private static String[] businessTypes = {"Furnishings", "Bakery",
 			"Accounting", "Textiles", "Manufacturing", "Industries",
 			"Pro Services", "Landscaping", "Realty", "Travel",
 			"Medical supplies", "Office supplies", "Insurance", "Software",
 			"Motors", "Cafe", "Services", "Gymnasium", "Motor Services",
-			"Signs", "Development", "Studios", "Engineering", "Development" };
+			"Signs", "Development", "Studios", "Engineering", "Development"};
 
-	private static String[] emailHosts = { "gma1l", "hotma1l", "yah00",
-			"somema1l", "everyma1l", "ma1lbox", "b1zmail", "ma1l2u" };
+	private static String[] emailHosts = {"gma1l", "hotma1l", "yah00",
+			"somema1l", "everyma1l", "ma1lbox", "b1zmail", "ma1l2u"};
 
-	private static String[] tlds = { "org", "net", "com", "biz", "us", "co.uk" };
+	private static String[] tlds = {"org", "net", "com", "biz", "us", "co.uk"};
 
 	public String[] getWords() {
 		return words;

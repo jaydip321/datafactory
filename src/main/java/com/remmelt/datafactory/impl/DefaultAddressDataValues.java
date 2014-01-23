@@ -1,4 +1,4 @@
-package org.fluttercode.datafactory.impl;
+package com.remmelt.datafactory.impl;
 
 /*
  * Copyright 2011, Andrew M Gibson
@@ -11,23 +11,23 @@ package org.fluttercode.datafactory.impl;
  * it under the terms of the GNU Lesser General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
- * 
+ *
  * DataFactory is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU Lesser General Public License for more details.
- * 
- * 
+ *
+ *
  * You should have received a copy of the GNU Lesser General Public License
  * along with DataFactory.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
 
-import org.fluttercode.datafactory.AddressDataValues;
+import com.remmelt.datafactory.AddressDataValues;
 
 public class DefaultAddressDataValues implements AddressDataValues {
 
-	private static String[] streetNames = { "Aberdeen", "Abington", "Academy",
+	private static String[] streetNames = {"Aberdeen", "Abington", "Academy",
 			"Adair", "Adams", "Adamsville", "Aeryview", "Agines", "Airport",
 			"Airwood", "Akron", "Alameda", "Albert", "Albright", "Alburn",
 			"Alexis", "Alfred", "Alice", "Alkire", "Allen", "Allison", "Alvin",
@@ -262,13 +262,13 @@ public class DefaultAddressDataValues implements AddressDataValues {
 
 	};
 
-	private static String[] addressSuffixes = { "Avenue", "Boulevard",
+	private static String[] addressSuffixes = {"Avenue", "Boulevard",
 			"Circle", "Crescent", "Court", "Drive", "Heights", "Lane", "Park",
 			"Path", "Parkway", "Place", "Road", "Ridge", "Run", "Square",
 			"Street", "Station", "Terrace", "Trail", "Way", "Rd", "Ln", "St",
-			"Blvd", "Ave", "Drv" };
+			"Blvd", "Ave", "Drv"};
 
-	private static String[] cities = { "Abba", "Abbeville", "Acworth",
+	private static String[] cities = {"Abba", "Abbeville", "Acworth",
 			"Adairsville", "Adel", "Adrian", "Ailey", "Alamo", "Alapaha",
 			"Albany", "Allenhurst", "Alma", "Alma", "Alpharetta", "Alston",
 			"Amboy", "Ambrose", "Americus", "Appling", "Arlington", "Ashburn",
@@ -363,7 +363,7 @@ public class DefaultAddressDataValues implements AddressDataValues {
 			"West Green", "West Point", "Westwood", "Whigham", "White Oak",
 			"Whitmarsh Island", "Willacoochee", "Wilmington Island", "Winder",
 			"Winokur", "Withers", "Woodbine", "Woodstock", "Worth", "Wray",
-			"Wrightsville" };
+			"Wrightsville"};
 
 	public String[] getCities() {
 		return cities;
